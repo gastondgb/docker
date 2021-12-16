@@ -44,6 +44,7 @@ RUN apk --no-cache add \
     libsodium \
     apache2 \
     php8-apache2 \
+    php8-pecl-memcached \
     curl \
     && rm -rf /var/cache/apk/* \
     && mkdir -p /run/apache2 \
