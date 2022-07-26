@@ -7,10 +7,10 @@
 # more information : https://github.com/osixia/docker-light-baseimage
 
 # Required and used for new ldap server only
-LDAP_ORGANISATION: UNO
-LDAP_DOMAIN: uno.edu.ar
-LDAP_ADMIN_PASSWORD: n3tm0us3
-LDAP_CONFIG_PASSWORD: n3tm0us3
+LDAP_ORGANISATION: EEI
+LDAP_DOMAIN: eei.uno.edu.ar
+LDAP_ADMIN_PASSWORD: admin
+LDAP_CONFIG_PASSWORD: admin
 
 LDAP_READONLY_USER: false
 LDAP_READONLY_USER_USERNAME: readonly
